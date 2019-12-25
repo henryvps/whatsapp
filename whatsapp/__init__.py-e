@@ -18,13 +18,13 @@ from __future__ import absolute_import
 __version__ = "1.0.0"
 
 # import apis into sdk package
-from whatsapp.api.instance_api import 1InstanceApi
-from whatsapp.api.2_messages_api import 2MessagesApi
-from whatsapp.api.3_chats_api import 3ChatsApi
-from whatsapp.api.4_webhooks_api import 4WebhooksApi
-from whatsapp.api.5_queues_api import 5QueuesApi
-from whatsapp.api.6_ban_api import 6BanApi
-from whatsapp.api.7_testing_api import 7TestingApi
+from whatsapp.api.instance_api import InstanceApi
+from whatsapp.api.messages_api import MessagesApi
+from whatsapp.api.chats_api import ChatsApi
+from whatsapp.api.webhooks_api import WebhooksApi
+from whatsapp.api.queues_api import QueuesApi
+from whatsapp.api.ban_api import BanApi
+from whatsapp.api.testing_api import 7TestingApi
 
 # import ApiClient
 from whatsapp.api_client import ApiClient

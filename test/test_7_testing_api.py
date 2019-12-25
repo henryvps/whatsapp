@@ -16,15 +16,15 @@ from __future__ import absolute_import
 import unittest
 
 import whatsapp
-from whatsapp.api.7_testing_api import 7TestingApi  # noqa: E501
+from whatsapp.api.testing_api import TestingApi  # noqa: E501
 from whatsapp.rest import ApiException
 
 
-class Test7TestingApi(unittest.TestCase):
-    """7TestingApi unit test stubs"""
+class TestTestingApi(unittest.TestCase):
+    """TestingApi unit test stubs"""
 
     def setUp(self):
-        self.api = whatsapp.api.7_testing_api.7TestingApi()  # noqa: E501
+        self.api = whatsapp.api.testing_api.TestingApi()  # noqa: E501
 
     def tearDown(self):
         pass
