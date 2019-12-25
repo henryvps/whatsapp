@@ -1,7 +1,6 @@
 # coding: utf-8
 
 # flake8: noqa
-
 """
     Chat API SDK
 
@@ -15,26 +14,7 @@
 
 from __future__ import absolute_import
 
-__version__ = "1.0.0"
-
-# import apis into sdk package
-from whatsapp.api.instance_api import InstanceApi
-from whatsapp.api.2_messages_api import 2MessagesApi
-from whatsapp.api.3_chats_api import 3ChatsApi
-from whatsapp.api.4_webhooks_api import 4WebhooksApi
-from whatsapp.api.5_queues_api import 5QueuesApi
-from whatsapp.api.6_ban_api import 6BanApi
-from whatsapp.api.7_testing_api import 7TestingApi
-
-# import ApiClient
-from whatsapp.api_client import ApiClient
-from whatsapp.configuration import Configuration
-from whatsapp.exceptions import OpenApiException
-from whatsapp.exceptions import ApiTypeError
-from whatsapp.exceptions import ApiValueError
-from whatsapp.exceptions import ApiKeyError
-from whatsapp.exceptions import ApiException
-# import models into sdk package
+# import models into model package
 from whatsapp.models.ack import Ack
 from whatsapp.models.ban_settings import BanSettings
 from whatsapp.models.ban_test_action import BanTestAction
@@ -86,4 +66,3 @@ from whatsapp.models.status import Status
 from whatsapp.models.statuses import Statuses
 from whatsapp.models.webhook_status import WebhookStatus
 from whatsapp.models.webhook_url import WebhookUrl
-

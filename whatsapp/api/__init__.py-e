@@ -3,7 +3,7 @@ from __future__ import absolute_import
 # flake8: noqa
 
 # import apis into api package
-from whatsapp.api.instance_api import InstanceApi
+from whatsapp.api.instance_api import 1InstanceApi
 from whatsapp.api.2_messages_api import 2MessagesApi
 from whatsapp.api.3_chats_api import 3ChatsApi
 from whatsapp.api.4_webhooks_api import 4WebhooksApi
